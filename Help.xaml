@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="classi.Help"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:classi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FF817E8F">
+        <Image HorizontalAlignment="Left" Height="100" Margin="322,0,-5,0" VerticalAlignment="Top" Width="83" Source="Assets/download.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="83" Source="Assets/download.jpg"/>
+        <TextBox HorizontalAlignment="Left" Margin="81,0,0,0" TextWrapping="Wrap" Text="        &#xD;&#xA;         HELP ?" VerticalAlignment="Top" Width="239" FontSize="25" Height="100" Background="#FFFFFFFD" FontWeight="Bold" Foreground="#FF232121"/>
+        <TextBlock HorizontalAlignment="Left" Margin="5,138,-5,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="154" Width="400" Text="INTERESTS:   Who are interested to participate in classical events they can register in interests page. If any new information is updated they get notification." FontSize="25" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Left" Margin="0,315,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="124" Width="400" Text="EVENTS:      Details of the events  is available  here i.e., event, website, place, date.   " FontSize="25" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Left" Margin="0,439,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="127" Width="400" FontSize="25" Foreground="Black">
+        	<Run Text="ADD EVENTS:   What are the "/>
+        	<Run Text="e"/>
+        	<Run Text="vents "/>
+        	<Run Text="conducting that are uploaded here."/>
+        </TextBlock>
+
+    </Grid>
+</Page>
